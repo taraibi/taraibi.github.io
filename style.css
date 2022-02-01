@@ -1,0 +1,94 @@
+body {
+  background: #292929;
+  font-size: 16px;
+}
+
+.navbar {
+  width: 100%;
+  border-style: ridge;
+  border-color: #ff239c;
+}
+
+a {
+  color: white !important;
+}
+
+a:hover {
+  color: rgb(153, 0, 255) !important;
+}
+
+.bioContainer,.projectsContainer {
+  width: 100%;
+  background: linear-gradient(#bd92d1, #ff239c);
+  text-align: center !important;
+}
+
+.projectImage {
+  width: 15em;
+  height: 15em;
+  border-radius: 75%;
+}
+
+.projectImage2 {
+  width: 20em;
+  height: 15em;
+}
+
+.projectHeader {
+  font-size: 1.5em;
+  font-weight: 450;
+}
+
+.bioImgage {
+  width: 15.5em;
+  height: 8em;
+  border-radius: 100%;
+}
+.bioImgage2 {
+  width: 7.5em;
+  height: 7em;
+  border-radius: 100%;
+}
+
+.bioTitle {
+  padding: 20px 0;
+  font-size: 1.5em;
+}
+
+.bio {
+  padding-bottom: 1.4em;
+  font-size: 0.9em;
+  align-items: start
+
+}
+
+.bioLinks a {
+  color: rgba(136, 93, 93, 0.699);
+  text-decoration:none;
+}
+
+.bioLinks a:hover {
+  color: rgb(84, 14, 245);
+}
+
+.skillsList {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap:1px;
+  grid-auto-rows: minmax(10px, auto);
+  align-items: flex-start;
+}
+
+.languages {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.TestFrame {
+  grid-column: 2;
+  grid-row: 1;
+}
+.TestTypes {
+  grid-column: 3 ;
+  grid-row: 1;
+}
